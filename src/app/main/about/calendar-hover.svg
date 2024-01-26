@@ -1,0 +1,10 @@
+<svg id="Ico-Calendar_01" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="長方形_4234" data-name="長方形 4234" width="28" height="28" fill="none"/>
+  <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(7 5.66)">
+    <path id="パス_1908" data-name="パス 1908" d="M6.056,6H16.944A1.5,1.5,0,0,1,18.5,7.448V17.584a1.5,1.5,0,0,1-1.556,1.448H6.056A1.5,1.5,0,0,1,4.5,17.584V7.448A1.5,1.5,0,0,1,6.056,6Z" transform="translate(-4.5 -3.352)" fill="none" stroke="#687284" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="パス_1909" data-name="パス 1909" d="M24,3V6" transform="translate(-13.889 -2)" fill="none" stroke="#687284" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="パス_1910" data-name="パス 1910" d="M12,3V6" transform="translate(-8.111 -2)" fill="none" stroke="#687284" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="パス_1911" data-name="パス 1911" d="M4.5,15h14" transform="translate(-4.5 -8.653)" fill="none" stroke="#687284" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+  <circle id="楕円形_220" data-name="楕円形 220" cx="12" cy="12" r="12" transform="translate(2 2)" fill="rgba(0,0,0,0.1)"/>
+</svg>

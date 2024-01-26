@@ -1,0 +1,8 @@
+<svg id="Ico-Realtime" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="矩形_7957" data-name="矩形 7957" width="28" height="28" fill="none"/>
+  <g id="组_28156" data-name="组 28156" transform="translate(0 2)">
+    <path id="路径_19312" data-name="路径 19312" d="M0,0H24V24H0Z" fill="none"/>
+    <path id="路径_19313" data-name="路径 19313" d="M9,18l7-4ZM21,6H13.42l3.29-3.29L16,2,12,6h-.03l-4-4-.69.71L10.56,6H3A2.006,2.006,0,0,0,1,8V20a2.006,2.006,0,0,0,2,2H21a2.006,2.006,0,0,0,2-2V8A2.006,2.006,0,0,0,21,6Zm0,14H3V8H21Z"/>
+  </g>
+  <text id="OP" transform="translate(17 19)" font-size="8" font-family="NotoSansJP-Regular, Noto Sans JP"><tspan x="-10.992" y="0">OP</tspan></text>
+</svg>

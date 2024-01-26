@@ -1,0 +1,93 @@
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+.swiper-slide {
+  width: auto;
+  overflow: hidden;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+.clearboth {
+  clear: both;
+}
+.imgbox {
+  float: left;
+  overflow: hidden;
+}
+.imgstyle {
+  width: 96%;
+}
+.timep {
+  text-align: left;
+}
+.closebutton {
+  appearance: none;
+  border: none;
+  background: #ffd800;
+  border-radius: 4px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.twoimage {
+  background-color: #dab4fd !important;
+}
+.oneimage {
+  background-color: #fdf136 !important;
+}
+.ico1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #dab4fd;
+  top: 50%;
+  margin-top: -5px;
+  position: absolute;
+}
+.ico1text {
+  margin-left: 20px;
+  line-height: 25px;
+}
+.ico1box {
+  width: 100%;
+  height: 25px;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: left;
+}
+.ico2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fdf136;
+  top: 50%;
+  margin-top: -5px;
+  position: absolute;
+}
+.ico2text {
+  margin-left: 20px;
+  line-height: 25px;
+}
+.ico3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1087ff;
+  top: 50%;
+  margin-top: -5px;
+  position: absolute;
+}
+.ico3text {
+  margin-left: 20px;
+  line-height: 25px;
+}

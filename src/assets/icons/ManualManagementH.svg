@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="MunualIcon" transform="translate(-16 -8)">
+    <g id="Ico-Manual" transform="translate(16 8)">
+      <rect id="矩形_7972" data-name="矩形 7972" width="28" height="28" fill="none"/>
+      <g id="组_28231" data-name="组 28231" transform="translate(0 2)">
+        <g id="组_28231-2" data-name="组 28231">
+          <rect id="矩形_7973" data-name="矩形 7973" width="24" height="24" fill="none"/>
+        </g>
+        <g id="组_28234" data-name="组 28234">
+          <g id="组_28233" data-name="组 28233">
+            <path id="路径_19624" data-name="路径 19624" d="M21,5a11.8,11.8,0,0,0-3.5-.5A9.3,9.3,0,0,0,12,6,9.3,9.3,0,0,0,6.5,4.5,9.3,9.3,0,0,0,1,6V20.65a.538.538,0,0,0,.5.5c.1,0,.15-.05.25-.05A12.205,12.205,0,0,1,6.5,20,9.3,9.3,0,0,1,12,21.5,12.045,12.045,0,0,1,17.5,20a10.178,10.178,0,0,1,4.75,1.05.451.451,0,0,0,.25.05.538.538,0,0,0,.5-.5V6A6.821,6.821,0,0,0,21,5Zm0,13.5a11.62,11.62,0,0,0-3.5-.5A12.045,12.045,0,0,0,12,19.5V8a12.045,12.045,0,0,1,5.5-1.5A11.62,11.62,0,0,1,21,7Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="H" transform="translate(29 17)" font-size="8" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0.472" y="9">H</tspan></text>
+  </g>
+</svg>

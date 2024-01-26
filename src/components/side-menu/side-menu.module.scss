@@ -1,0 +1,18 @@
+.sideMenuContainer {
+  .drawerHeader {
+    display: flex;
+    height: 44px;
+    align-items: center;
+  }
+
+  .sideMenuList {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .sideMenuListItemText {
+    span {
+      font-size: 14px;
+    }
+  }
+}

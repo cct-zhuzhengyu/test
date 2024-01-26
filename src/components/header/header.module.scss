@@ -1,0 +1,60 @@
+.headerContainer {
+  display: flex;
+  background-color: #8d97a6;
+  justify-content: space-between;
+  font-family: "Noto Sans JP";
+
+  .logoContainer {
+    height: 48px;
+    line-height: 32px;
+    padding: 8px 16px;
+  }
+
+  .menuContainer {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  :global(.MuiBadge-badge) {
+    background-color: #f2a70c;
+  }
+}
+
+.userMenuList {
+  :global(.MuiMenu-list) {
+    padding: 0;
+  }
+
+  :global(.MuiMenuItem-root) {
+    display: flex;
+    width: 210px;
+    padding: 8px 6px 8px 16px;
+    justify-content: space-between;
+    font-family: "Noto Sans JP";
+
+    &:first-child:hover {
+      background-color: #ffffff;
+    }
+
+    &:not(:first-child):hover {
+      background-color: #eef2f6;
+    }
+  }
+
+  .messageNumberBadge {
+    height: 24px;
+    width: 24px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f2a70c;
+  }
+
+  .menuItemDivider {
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Icon_feather-calendar" data-name="Icon feather-calendar" transform="translate(1.75 0.75)">
+    <path id="路径_1908" data-name="路径 1908" d="M6.111,6H17.389A1.528,1.528,0,0,1,19,7.428v10a1.528,1.528,0,0,1-1.611,1.428H6.111A1.528,1.528,0,0,1,4.5,17.424v-10A1.528,1.528,0,0,1,6.111,6Z" transform="translate(-5.5 -4.352)" fill="none" stroke="#687284" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="路径_1909" data-name="路径 1909" d="M24,3V6" transform="translate(-14.528 -3)" fill="none" stroke="#687284" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="路径_1910" data-name="路径 1910" d="M12,3V6" transform="translate(-8.972 -3)" fill="none" stroke="#687284" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="路径_1911" data-name="路径 1911" d="M4.5,15H19" transform="translate(-5.5 -9.719)" fill="none" stroke="#687284" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

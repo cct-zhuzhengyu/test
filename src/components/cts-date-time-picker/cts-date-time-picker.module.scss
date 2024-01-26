@@ -1,0 +1,211 @@
+.dateTimePickerContainer {
+  .dateTimePickerInput {
+    :global(.MuiOutlinedInput-root) {
+      padding: 0;
+    }
+  }
+}
+
+.dateTimePickerMenu {
+  :global(.MuiMenu-paper) {
+    border: 1px solid #cccccc;
+    box-shadow: 0 3px 6px #cccccc;
+  }
+
+  :global(.MuiMenu-list) {
+    padding: 0;
+    min-width: 290px;
+  }
+
+  .timeContainer {
+    padding: 8px 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .yearMonthContainer {
+    padding: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+
+    .selectYearMonth {
+      font-size: 14px;
+
+      fieldset {
+        top: 0;
+        border-color: #808080;
+        legend {
+          display: none !important;
+        }
+      }
+
+      &:hover fieldset {
+        border-width: 1px;
+        box-shadow: 0px 0px 6px #4dc4ff;
+        border-color: #4dc4ff;
+      }
+    }
+
+    :global(.Mui-focused) {
+      fieldset {
+        border-width: 1px;
+        box-shadow: 0px 0px 6px #4dc4ff;
+        border-color: #4dc4ff;
+      }
+    }
+  }
+
+  .dayDisplayContainer {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding: 16px 8px;
+
+    .calendarRow {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .calendarCol {
+      width: 16px;
+      font-size: 14px;
+      text-align: center;
+
+      &.weekBold {
+        font-weight: bold;
+      }
+
+      &.dayCol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+
+        &:not(.dayDisabled) {
+          cursor: pointer;
+
+          &:hover {
+            background-color: rgba(#4dc4ff, 0.2);
+          }
+        }
+      }
+
+      &.dayDisabled {
+        opacity: 0.5;
+      }
+
+      &.today {
+        background-color: rgba(#4dc4ff, 0.5);
+      }
+
+      &.selected {
+        color: #ffffff;
+        background-color: #4dc4ff;
+      }
+    }
+  }
+
+  .timeInput {
+    :global(.MuiOutlinedInput-root) {
+      padding: 0;
+    }
+
+    &.timeInputOpen {
+      fieldset {
+        border-width: 1px;
+        box-shadow: 0px 0px 6px #4dc4ff;
+        border-color: #4dc4ff;
+      }
+    }
+  }
+}
+
+.timePickerMenu {
+  font-size: 14px;
+
+  :global(.MuiMenu-paper) {
+    border: 1px solid #cccccc;
+    box-shadow: 0 3px 6px #cccccc;
+  }
+
+  :global(.MuiMenu-list) {
+    min-width: 240px;
+    max-height: 232px;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    padding: 8px;
+    overflow: hidden;
+    position: relative;
+
+    &::after,
+    &::before {
+      content: "";
+      height: 26px;
+      text-align: left;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin: -13px 8px 0;
+      //   z-index: -1;
+      box-sizing: border-box;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .timeSelectUl {
+    width: 44px;
+    text-align: center;
+    list-style: none;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    &::-webkit-scrollbar-track {
+      display: none;
+    }
+
+    &:first-of-type {
+      margin-left: 18px;
+    }
+
+    &:last-of-type {
+      margin-right: 18px;
+    }
+
+    &::after,
+    &::before {
+      content: "";
+      display: block;
+      height: 96px;
+    }
+
+    li {
+      cursor: pointer;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.5);
+
+      &:not(:last-of-type) {
+        margin-bottom: 8px;
+      }
+
+      &:hover:not(.active) {
+        background-color: #4dc4ff33;
+      }
+
+      &.active {
+        color: #000000;
+      }
+    }
+  }
+}
